@@ -34,14 +34,14 @@ class _HomeState extends State<Home> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Pick Your Favorite ',
+                    'Pick for Your Favorite ',
                     style: TextStyle(
                       fontSize: 32.0,
                       color: Colors.white,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
-                  Text('Contests',
+                  Text('Stuff',
                     style: TextStyle(
                       fontSize: 32.0,
                       color: Colors.white,
@@ -53,7 +53,7 @@ class _HomeState extends State<Home> {
                   ),
                   SizedBox(
                     width: MediaQuery.of(context).size.width - 25,
-                    child: Text('Belajar Membuat UI dan implementasi GetX',
+                    child: Text('Shopping in The Future',
                     style: TextStyle(
                       color: Colors.white60
                     ),
@@ -79,7 +79,7 @@ class _HomeState extends State<Home> {
                         )
                       ),
                       onPressed: () => Container(),
-                      child: Text('Get Started', style: TextStyle(
+                      child: Text('Go To Market', style: TextStyle(
                         color: Colors.white
                       ),),
                     ),
