@@ -49,23 +49,24 @@ class _HomeState extends State<Home> {
                     )
                   ),
                   SizedBox(
-                    height: 40.0,
+                    height: 110.0,
                   ),
                   SizedBox(
-                    width: MediaQuery.of(context).size.width - 25,
+                    width: MediaQuery.of(context).size.width - 50,
                     child: Text('Shopping in The Future',
                     style: TextStyle(
-                      color: Colors.white60
+                      color: Colors.white60,
+                      fontSize: 20
                     ),
                     ),
 
                   ),
                   SizedBox(
-                    height: 40.0,
+                    height: 60.0,
                   ),
                   Container(
-                    width: 200,
-                    height: 70,
+                    width: 130,
+                    height: 60,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20.0),
                       color: Color(0xFffbc33e),
@@ -85,7 +86,7 @@ class _HomeState extends State<Home> {
                     ),
 
                   ),
-                  SizedBox(height: 70,),
+                  SizedBox(height: 120,),
                 ],
               ))
         ],
